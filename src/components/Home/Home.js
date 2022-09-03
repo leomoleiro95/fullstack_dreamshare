@@ -49,10 +49,14 @@ const Home = () => {
   const searchPost = () => {
     if(search.trim() || tags) {
       dispatch(getPostsBySearch({search, tags: tags.join(',')}))
-      if(search==='none' && tags === 'none'){history.push("/posts");}
-       history.push(`/posts/search?searchQuery=${search || "none"}&tags=${tags.join(",")}`);
+      if(search==='none' && tags === 'none'){history.push("/fullstack_dreamshare/posts");}
+       history.push(
+         `/fullstack_dreamshare/posts/search?searchQuery=${
+           search || "none"
+         }&tags=${tags.join(",")}`
+       );
     } else {
-      history.push('/')
+      history.push("/fullstack_dreamshare");
     }
   }
 

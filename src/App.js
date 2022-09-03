@@ -20,17 +20,37 @@ const App = () => {
   //console.log("App.js User", user);
 
   return (
-    <GoogleOAuthProvider clientId={clientGID} >
+    <GoogleOAuthProvider clientId={clientGID}>
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <Container maxwidth="xl">
             <Navbar />
             <Switch>
-              <Route path="/" exact component={() => <Redirect to="/posts" />} />
-              <Route path="/posts" exact component={Home} />
-              <Route path="/posts/search" exact component={Home} />
-              <Route path="/posts/:id" component={PostDetails} />
-              <Route path="/auth" exact component={() => !user ? ( <Auth  /> ) : ( <Redirect to="/posts" /> )}
+              <Route
+                path="/fullstack_dreamshare/"
+                exact
+                component={() => <Redirect to="/fullstack_dreamshare/posts" />}
+              />
+              <Route
+                path="/fullstack_dreamshare/posts"
+                exact
+                component={Home}
+              />
+              <Route
+                path="/fullstack_dreamshare/posts/search"
+                exact
+                component={Home}
+              />
+              <Route
+                path="/fullstack_dreamshare/posts/:id"
+                component={PostDetails}
+              />
+              <Route
+                path="/fullstack_dreamshare/auth"
+                exact
+                component={() =>
+                  !user ? <Auth /> : <Redirect to="/fullstack_dreamshare/posts" />
+                }
               />
             </Switch>
           </Container>

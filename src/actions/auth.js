@@ -9,7 +9,7 @@ export const signin = (formData, history) => async (dispatch) => {
 
         dispatch({type: AUTH, data})
 
-        history.push("/")
+        history.push("")
     } catch (error) {
       alert( "Wrong credentials")
         console.log(error)
@@ -24,7 +24,7 @@ export const signup = (formData, history) => async (dispatch) => {
 
      dispatch({ type: AUTH, data });
 
-    history.push("/");
+    history.push("/fullstack_dreamshare/");
   } catch (error) {
     console.log(error);
   }

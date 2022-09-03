@@ -67,7 +67,7 @@ const Post = ({ post, setCurrentId }) => {
   };
 
   const openPost = () => {
-    history.push(`/posts/${post._id}`)
+    history.push(`/fullstack_dreamshare/posts/${post._id}`);
   }
 
   return (

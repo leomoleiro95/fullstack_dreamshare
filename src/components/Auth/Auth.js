@@ -45,7 +45,7 @@ const Auth = () => {
 
     try {
       dispatch({type:"AUTH", data: {result, token}})
-      history.push("/")
+      history.push("/fullstack_dreamshare");
     } catch (error) {
         console.log("ERROR",error)
     }

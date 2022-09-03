@@ -31,7 +31,7 @@ return (
       <PaginationItem
         {...item}
         component={Link}
-        to={`/posts?page=${item.page}`}
+        to={`/fullstack_dreamshare/posts?page=${item.page}`}
       />
     )}
   />

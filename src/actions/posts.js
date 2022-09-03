@@ -60,7 +60,7 @@ export const createPost = (post, history) => async (dispatch) => {
     const { data } = await api.createPost(post);
     console.log(data)
 
-    history.push(`/posts/${data._id}`)
+    history.push(`/fullstack_dreamshare/posts/${data._id}`);
 
     dispatch({ type: CREATE, payload: data });
     dispatch({ type: END_LOADING });

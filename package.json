@@ -1,9 +1,9 @@
 {
   "name": "dreamshare",
   "version": "0.1.0",
-  "homepage": "https://github.com/leomoleiro95/dreamshare.git",
+  "homepage": "https://leomoleiro95.github.io/fullstack_dreamshare/",
   "private": true,
-  "proxy": "https://dreamsharelmoleiro.herokuapp.com/",
+  "proxy": "https://fulldreamshare.herokuapp.com/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
