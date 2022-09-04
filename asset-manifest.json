@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fullstack_dreamshare/static/css/main.2f765595.chunk.css",
+    "main.js": "/fullstack_dreamshare/static/js/main.8322dfc2.chunk.js",
+    "main.js.map": "/fullstack_dreamshare/static/js/main.8322dfc2.chunk.js.map",
+    "runtime-main.js": "/fullstack_dreamshare/static/js/runtime-main.ba2dea84.js",
+    "runtime-main.js.map": "/fullstack_dreamshare/static/js/runtime-main.ba2dea84.js.map",
+    "static/js/2.d612c036.chunk.js": "/fullstack_dreamshare/static/js/2.d612c036.chunk.js",
+    "static/js/2.d612c036.chunk.js.map": "/fullstack_dreamshare/static/js/2.d612c036.chunk.js.map",
+    "index.html": "/fullstack_dreamshare/index.html",
+    "precache-manifest.6b8d9e9fd04519059831ff10ec9318ee.js": "/fullstack_dreamshare/precache-manifest.6b8d9e9fd04519059831ff10ec9318ee.js",
+    "service-worker.js": "/fullstack_dreamshare/service-worker.js",
+    "static/css/main.2f765595.chunk.css.map": "/fullstack_dreamshare/static/css/main.2f765595.chunk.css.map",
+    "static/js/2.d612c036.chunk.js.LICENSE.txt": "/fullstack_dreamshare/static/js/2.d612c036.chunk.js.LICENSE.txt",
+    "static/js/main.8322dfc2.chunk.js.LICENSE.txt": "/fullstack_dreamshare/static/js/main.8322dfc2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba2dea84.js",
+    "static/js/2.d612c036.chunk.js",
+    "static/css/main.2f765595.chunk.css",
+    "static/js/main.8322dfc2.chunk.js"
+  ]
+}
