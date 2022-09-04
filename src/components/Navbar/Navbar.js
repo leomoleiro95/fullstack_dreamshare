@@ -19,7 +19,7 @@ const Navbar = () => {
   const logout = () => {
     dispatch({ type: LOGOUT });
     setUser(null);
-    history.push("/fullstack_dreamshare");
+    history.push("/fullstack_dreamshare/");
 
   };
 
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className={classes.brandContainer}>
         <Typography
           component={Link}
-          to="/fullstack_dreamshare"
+          to="/fullstack_dreamshare/"
           className={classes.heading}
           variant="h2"
           align="center"

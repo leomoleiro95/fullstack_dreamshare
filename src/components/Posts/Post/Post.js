@@ -1,14 +1,6 @@
 import React, {useState} from "react";
 import useStyles from "./styles";
-import {
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Button,
-  Typography,
-  ButtonBase
-} from "@mui/material";
+import { Card, CardActions, CardContent, CardMedia, Button, Typography, ButtonBase } from "@mui/material";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import ThumbUpAltOutlinedIcon from "@mui/icons-material/ThumbUpAltOutlined";
 import DeleteIcon from "@mui/icons-material/Delete";

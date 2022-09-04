@@ -56,7 +56,7 @@ const Home = () => {
          }&tags=${tags.join(",")}`
        );
     } else {
-      history.push("/fullstack_dreamshare");
+      history.push("/fullstack_dreamshare/");
     }
   }
 
